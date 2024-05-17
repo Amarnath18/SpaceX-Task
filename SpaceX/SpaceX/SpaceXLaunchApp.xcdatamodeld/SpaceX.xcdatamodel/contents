@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="22G630" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="LaunchEntity" representedClassName="LaunchEntity" isAbstract="YES" syncable="YES">
+        <attribute name="dateLocal" optional="YES" attributeType="String"/>
+        <attribute name="dateUTC" optional="YES" attributeType="String"/>
+        <attribute name="failures" optional="YES" attributeType="Binary"/>
+        <attribute name="links" optional="YES" attributeType="Binary"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="rocket" optional="YES" attributeType="String"/>
+        <attribute name="success" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
+</model>

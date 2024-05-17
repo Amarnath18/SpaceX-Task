@@ -1,0 +1,8 @@
+platform :ios, '12.0'
+
+target 'SpaceX' do
+pod 'Alamofire'
+end
+
+
+
